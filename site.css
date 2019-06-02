@@ -1,0 +1,284 @@
+﻿﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+html {
+
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+/*2a0c4e*/
+nav {
+  background-color: #372554 !important;
+  padding-bottom: 4em;
+  border-bottom: 5px solid #d3d4d9;
+  color: white;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-link,
+.active {
+  margin: auto;
+}
+
+
+.navbar-nav>li>a {
+  color: white;
+
+}
+
+.main {
+  padding-top: 3em;
+}
+
+.dropdown {
+  color: white;
+  padding-top: .3em;
+  padding-left: 1em;
+  margin: auto;
+}
+
+#tt {
+  padding-top: .3em;
+  padding-left: 1em;
+  margin: auto;
+}
+
+.bkf {
+  padding-left: 3em;
+  color: white;
+  font-family: 'xtreem_thin_personal_useRg';
+  font-size: 5.5em;
+}
+
+.baz {
+  margin-top: 2em;
+}
+
+.quote {
+  font-size: 2em;
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
+  padding: 1em;
+  line-height: 1.6;
+  color: white;
+}
+
+.colourone {
+  background-color: #000;
+  margin-left: 0;
+  margin-right: 0;
+  height: 72em;
+}
+
+.colourtwo {
+  background-color: #36393B;
+  margin-left: 0;
+  height: 72em;
+  margin-right: 0;
+}
+
+.colourthree {
+  background-color: #000;
+  margin-left: 0;
+  margin-right: 0;
+  height: 72em;
+}
+
+.whitetext {
+  padding-top: 2em;
+  margin-left: 4.1em;
+  padding-right: 4em;
+  color: white;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1.2em;
+  z-index: 10;
+  position: relative;
+}
+
+.cont {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 0em !important;
+  padding-right: 0em !important;
+}
+
+.whitetitle {
+  padding-top: .5em;
+  padding-left: 4em;
+  color: white;
+  padding-right: 2em;
+  font-family: 'xtreem_thin_personal_useRg';
+  font-size: 2.8em;
+
+}
+
+.img {
+  background-image: linear-gradient(to bottom right, #7C9EB2, #52528C);
+  height: 10em;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: flex-start;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: flex-start;
+}
+
+.image {
+  -webkit-align-self: center;
+  /* Safari 7.0+ */
+  align-self: center;
+  margin: auto
+}
+
+.title {
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin-left: 10em;
+  padding-left: 1em;
+
+}
+
+
+
+.desc {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+
+
+
+.regi {
+  margin-top: 32em;
+
+}
+
+
+.containerOne {
+  margin-top: 2em;
+
+}
+
+.containerTwo {
+  margin-top: 2em;
+  background-color: white !important;
+  height: 30em;
+}
+
+#allfooter {
+  background-color: #372554;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+#zin,
+#emd,
+#reps {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+
+
+
+.create,
+.detail {
+  padding-top: 2em;
+}
+
+.important {
+  font-size: .7em;
+}
+
+.form-group {
+  padding-top: 1em;
+}
+
+@font-face {
+  font-family: 'xtreem_medium_personal_useRg';
+  src: url('xtreemmedium_personal_use-webfont.woff2') format('woff2'),
+    url('xtreemmedium_personal_use-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'xtreem_thin_personal_useRg';
+  src: url('xtreemthin_personal_use-webfont.woff2') format('woff2'),
+    url('xtreemthin_personal_use-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'xtreem_fat_personal_useRg';
+  src: url('xtreemfat_personal_use-webfont.woff2') format('woff2'),
+    url('xtreemfat_personal_use-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.StripeElement {
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
