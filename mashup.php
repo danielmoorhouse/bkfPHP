@@ -41,8 +41,8 @@ include 'inc/nav.php';
 				</p>
 			<br>
 			<hr class="hrm">
-			<p>
-				<a class="booklink" href="https://bkfitness.co.uk/bookings/zumbafitness.php">Book Zumba Fitness</a>	
+			
+			<p><span class="mkchmu">#MakeTheChange//</span> <a class="booklink" href="https://bkfitness.co.uk/bookings/zumbafitness.php">Book MashUp</a>	
 			</div></p>
 			<div class="col-md-6" style="text-align: center;">
 				<img src="images/zumbanew.jpg" style="width: 60%; border: 3px solid #ff0046; margin-bottom: 1.5em;">

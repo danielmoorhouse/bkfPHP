@@ -172,6 +172,10 @@ hr {
   background-color: #d3d4d9;
 }
 
+.hrs {
+  background-color: #E74992;
+}
+
 #gallery {
   position: relative;
 }
@@ -184,10 +188,73 @@ hr {
   z-index: 5;
 }
 
-.booklink {
-  font-size: 1.4em;
+.booklinkzumbag {
+  font-size: 1.8em;
+  color: #3cffbe;
+
+}
+
+.mkchzg {
   padding-left: 2em;
-  color: #5c55df;
+  color: #FFBE3C;
+  font-size: 1.8em;
+
+}
+
+.booklinkclub {
+  font-size: 1.4em;
+  color: #ff0046;
+}
+
+.mkchc {
+  padding-left: 2em;
+  color: #D8df55;
+  font-size: 1.4em;
+}
+
+.booklinkmu {
+  font-size: 1.4em;
+  color: #ff0046;
+}
+
+.mkchmu {
+  padding-left: 2em;
+  color: #D8df55;
+  font-size: 1.8em;
+}
+
+.booklinksosa {
+  font-size: 1.8em;
+  color: #4992e7;
+}
+
+.mkchs {
+  padding-left: 2em;
+  color: #E74992;
+  font-size: 1.8em;
+}
+
+
+.booklinkzumba {
+  font-size: 1.4em;
+  color: #ff0046;
+}
+
+.mkchzf {
+  padding-left: 2em;
+  color: #D8df55;
+  font-size: 1.4em;
+}
+
+.booklinkpound {
+  font-size: 1.4em;
+  color: #d400d4;
+}
+
+.mkchp {
+  padding-left: 2em;
+  color: #54D406;
+  font-size: 1.4em;
 }
 
 #gallery>img:first-child {
@@ -203,14 +270,10 @@ hr {
   text-align: justify;
 }
 
-
-
-
 .regi {
   margin-top: 32em;
 
 }
-
 
 .containerOne {
   margin-top: 2em;
@@ -228,6 +291,7 @@ hr {
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
+  margin-top: 4em;
 
 }
 
@@ -260,9 +324,6 @@ q:after {
   content: '';
   content: none;
 }
-
-
-
 
 .create,
 .detail {
