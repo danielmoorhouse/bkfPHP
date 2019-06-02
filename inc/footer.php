@@ -21,7 +21,7 @@
 	<div class="col-sm-4  text-center" id="foot3">
 	<div class="container" id="footimgone"><img src="images/EMD2.png" width="140" id="emd" class="img-responsive"
 					alt="emd logo"></div>
-	<p id="copyright"> © 2019 <a href="backenddev.co.uk">Nicola Moorhouse </a> and <a href="flydecoastdev.co.uk">Daniel Moorhouse</a></p>
+	<p id="copyright"> © 2019 <a href="backenddev.co.uk">Nicola Moorhouse </a> and <a href="flydewebdev.co.uk">Daniel Moorhouse</a></p>
 
 	</div>
 </div>

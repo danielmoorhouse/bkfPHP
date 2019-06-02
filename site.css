@@ -152,7 +152,51 @@ nav {
 
 }
 
+.classtitle {
+  text-align: center;
+}
 
+.hrp {
+  background-color: #54D406;
+}
+
+.hrzg {
+  background-color: #FFBE3C;
+}
+
+.hrz {
+  background-color: #D8df55;
+}
+
+hr {
+  background-color: #d3d4d9;
+}
+
+#gallery {
+  position: relative;
+}
+
+#gallery>img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 5;
+}
+
+.booklink {
+  font-size: 1.4em;
+  padding-left: 2em;
+  color: #5c55df;
+}
+
+#gallery>img:first-child {
+  display: block;
+}
+
+.box {
+  height: auto;
+}
 
 .desc {
   font-size: 1.2em;
