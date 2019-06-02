@@ -1,29 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>BKFitness</title>
-
-<style type="text/css">
-    #gallery {
-        position: relative;
-    }
-
-    #gallery>img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: none;
-        z-index: 5;
-    }
-
-    #gallery>img:first-child {
-        display: block;
-    }
-</style>
+</head>
 <?php 
 include 'inc/nav.php';
 ?>
@@ -47,9 +29,9 @@ include 'inc/nav.php';
                             </div>
                         </div>
                         <div class="col-md-6 text-center" data-toggle="tooltip" data-placement="top"
-                            title="Favourite in the Fylde Coast, at Radio Waves annnual award ceremony!">
+                        title="Zumba Fitness Details and Book Zumba">
                             <div class="container cont">
-                                <a href="About.cshtml" class="img"> <img src="images/zba.png" width="150"
+                            <a href="zumbafitness.php" class="img"> <img src="images/zba.png" width="150"
                                         class="image"></a>
                             </div>
                         </div>
@@ -68,9 +50,9 @@ include 'inc/nav.php';
 
                     <div class="row imgrow">
                         <div class="col-md-6 text-center " data-toggle="tooltip" data-placement="bottom"
-                            title="The National governing body for group exercise">
+                            title="Zumba Fitness Details and Book Zumba">
                             <div class="container cont">
-                                <a href="https://emduk.org/" class="img"> <img src="images/msl.png" width="180"
+                                <a href="zumbafitness.php" class="img"> <img src="images/msl.png" width="180"
                                         class="image"> </a>
                             </div>
                         </div>
