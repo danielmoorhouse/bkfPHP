@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
     <link href="https://fonts.googleapis.com/css?family=Thasadith:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
@@ -48,7 +49,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item">
@@ -109,5 +110,52 @@
         </li>
         </li>
         </ul>
+        <ul class="navbar-nav ml-auto" style="margin-right: 3%;">
+                    <a href="#" data-toggle="modal" data-target="#myModal"> <li class="nav-item"> Log In <i class="fas fa-sign-in-alt"></i></li></a>
+      &nbsp; &nbsp;  <a href="register.php"> <li class="nav-item"> Register <i class="fas fa-user-plus"></i></li></a>
+
+        </ul>
     </div>
 </nav>
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+
+      <!-- Modal Header -->
+      <div class="modal-header text-center" style="background-color: black; border-bottom: 3px solid purple;">
+        <h1 class="modal-title">Barry Kinder Fitness</h1>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body" style="background-color: black; border-bottom: 3px solid purple;">
+      <form action="register.php" method="POST">
+                            <br>
+							<input type="email" name="log_email" placeholder="Email address" value="<?php
+							if(isset($_SESSION['reg_email'])) {
+								echo $_SESSION['reg_email'];
+							}
+						?>" required>
+							<br>
+                            <br>
+							<input type="password" name="log_password" placeholder="Password" style="margin-bottom: 2%;">
+							<br>
+                            <br>
+							<?php if(in_array("Email or password is incorrect<br>", $error_array)) echo "Email or password is incorrect<br>"; ?>
+							<input  style="background-color: purple; border: 0; color: white; width: 30%; padding: 1%;" class="reg-btn btn-primary" type="submit" name="login_button" value="Login">
+							<br>
+							<br>
+
+							<a href="register.php" id="signup" class="signup" style="color: white;">Need an account? Register here</a>
+						</form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer" style="background-color: black; border=top: 1px solid purple;">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
