@@ -1,3 +1,7 @@
+
+ 
+
+
 <!doctype html>
 <html>
 
@@ -35,6 +39,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
     <link href="webfontkit/stylesheet.css" rel="stylesheet">
+    
 </head>
 
 
@@ -152,7 +157,7 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer" style="background-color: black; border=top: 1px solid purple;">
+      <div class="modal-footer" style="background-color: black; border-top: 1px solid purple;">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
 
