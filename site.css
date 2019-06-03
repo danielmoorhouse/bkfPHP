@@ -79,13 +79,13 @@ nav {
   background-color: #000;
   margin-left: 0;
   margin-right: 0;
-  height: 72em;
+  height: 74em;
 }
 
 .colourtwo {
   background-color: #36393B;
   margin-left: 0;
-  height: 72em;
+  height: 74em;
   margin-right: 0;
 }
 
@@ -93,7 +93,7 @@ nav {
   background-color: #000;
   margin-left: 0;
   margin-right: 0;
-  height: 72em;
+  height: 74em;
 }
 
 .whitetext {
@@ -124,6 +124,7 @@ nav {
   font-size: 2.8em;
 
 }
+
 .modal-title {
   font-family: 'xtreem_thin_personal_useRg';
   margin-left: 20%;
@@ -153,6 +154,15 @@ nav {
   position: relative;
   z-index: 10;
   margin-left: 10em;
+  padding-left: 1em;
+
+}
+
+.titletwo {
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin-left: 11em;
   padding-left: 1em;
 
 }
@@ -206,19 +216,44 @@ hr {
 
 }
 
+.b {
+  color: #ff005f;
+}
+
+.c {
+  color: #aef60a;
+}
+
+.h {
+  color: #00d0f9;
+}
+
+.lastdiv {
+  padding-bottom: 4em;
+}
+
 .booklinkclub {
-  font-size: 1.4em;
+  font-size: 2.2em;
   color: #ff0046;
 }
 
+.page {
+  padding-top: 4em;
+}
+
+.booknow {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .mkchc {
-  padding-left: 2em;
-  color: #D8df55;
-  font-size: 1.4em;
+  padding-left: 2.4em;
+  color: #7829ff;
+  font-size: 1.8em;
 }
 
 .booklinkmu {
-  font-size: 1.4em;
+  font-size: 1.8em;
   color: #ff0046;
 }
 
@@ -296,8 +331,19 @@ hr {
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
-  margin-top: 4em;
+}
 
+.testimonial {
+  font-family: 'Cookie', cursive;
+  font-size: 1.9em !important;
+}
+
+#copyright2 {
+  padding-top: 1.6em;
+}
+
+#facebook {
+  padding-top: 1.5em;
 }
 
 #zin,
@@ -342,6 +388,7 @@ q:after {
 .form-group {
   padding-top: 1em;
 }
+
 .splash-left {
   width: 100%;
   height: 100%;
@@ -350,8 +397,9 @@ q:after {
   position: relative;
 
 }
+
 .splash-left::before {
-  background-color: #353c3f ;
+  background-color: #353c3f;
   background-size: cover;
   content: "";
   display: block;
@@ -363,18 +411,19 @@ q:after {
   z-index: -2;
 
 }
+
 .splash-left::after {
   background-image: url('../images/poundclass.jpg');
- background-size: cover;
-content: "";
-display: block;
-position: absolute;
-top: 0px;
-left: 0px;
-width: 100%;
-height: 100%;
-z-index: -1;
-opacity: 0.1;
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
 
 }
 
