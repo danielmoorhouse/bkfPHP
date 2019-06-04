@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,11 +10,16 @@
 <?php 
 include 'inc/nav.php';
 ?>
+
 <body class="animated fadeIn">
+
+
+
+
     <div class="container-fluid">
         <div class="row">
             <div id="gallery">
-               
+
                 <img src="images/zumbadark.png">
                 <img src="images/clubbercisedark.png">
                 <img src="images/zumgdark.png">
@@ -29,55 +35,50 @@ include 'inc/nav.php';
                             </div>
                         </div>
                         <div class="col-md-6 text-center" data-toggle="tooltip" data-placement="top"
-                        title="Zumba Fitness Details and Book Zumba">
+                            title="Zumba Fitness Details -- #MakeTheChange// and Book Zumba Fitness">
                             <div class="container cont">
-                            <a href="zumbafitness.php" class="img"> <img src="images/zba.png" width="150"
-                                        class="image"></a>
+                                <a href="zumbafitness.php" class="img"> <img src="images/zba.png" width="150" class="image"></a>
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center" data-toggle="tooltip" data-placement="top"
-                            title="The Register of Exercise Professionals">
+                            title="Zumba Gold Details -- #MakeTheChange// and Book Zumba Gold">
                             <div class="container cont">
-                                <a href="https://www.exerciseregister.org/" class="img"> <img src="images/zbg.png"
-                                        width="130" class="image"> </a>
+                                <a href="zumbagold.php" class="img"> <img src="images/zbg.png" width="130" class="image"> </a>
                             </div>
                         </div>
-                       
+
                     </div>
 
 
 
                     <div class="row imgrow">
                         <div class="col-md-6 text-center " data-toggle="tooltip" data-placement="bottom"
-                            title="Zumba Fitness Details and Book Zumba">
+                            title="MashUp Details -- #MakeTheChange// and Book MashUp">
                             <div class="container cont">
-                                <a href="zumbafitness.php" class="img"> <img src="images/msl.png" width="180"
-                                        class="image"> </a>
+                                <a href="mashup.php" class="img"> <img src="images/msl.png" width="180" class="image"> </a>
                             </div>
                         </div>
                         <div class="col-md-6 text-center" data-toggle="tooltip" data-placement="top"
-                            title="The Register of Exercise Professionals">
+                            title="Clubbercise Details -- #MakeTheChange// and Book Clubbercise">
                             <div class="container cont">
-                                <a href="https://www.exerciseregister.org/" class="img"> <img src="images/cc.png"
-                                        width="120" class="image"> </a>
+                                <a href="clubbercise.php" class="img"> <img src="images/cc.png" width="120" class="image">
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="row imgrow">
                         <div class="col-md-6 text-center " data-toggle="tooltip" data-placement="bottom"
-                            title="Zumba Instructor Network for fully licensed instructors">
+                            title="Sosa Fitness Details -- #MakeTheChange// and Book Sosa Fitness">
                             <div class="container cont">
-                                <a href="https://www.zumba.com/en-US/faq/legal" class="img"> <img src="images/sosa.gif"
-                                        width="170" class="image"></a>
+                                <a href="sosafitness.php" class="img"> <img src="images/sosa.gif" width="170" class="image"></a>
                             </div>
                         </div>
                         <div class="col-md-6 text-center" data-toggle="tooltip" data-placement="top"
-                            title="The Register of Exercise Professionals">
+                            title="Pound Fitness Details -- #MakeTheChange// and Book Zumba Fitness">
                             <div class="container cont">
-                                <a href="https://www.exerciseregister.org/" class="img"> <img src="images/pound.gif"
-                                        width="170" class="image"> </a>
+                                <a href="pound.php" class="img"> <img src="images/pound.gif" width="170" class="image"> </a>
                             </div>
                         </div>
                     </div>
@@ -139,37 +140,35 @@ include 'inc/nav.php';
         </div>
 
     </div>
+
+</body>
 <?php 
 include 'inc/footer.php';
 ?>
-</body>
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous" integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=">
-</script>
+
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        var
-            images = "#gallery > img" // image selector
-            ,
-            interval = 4000 // milliseconds between transitions
-            ,
-            index = 0 // starting index
-            ,
-            count = $(images).length // image count
-            // the transition loop
-            ,
-            handle = setInterval(function () {
-                // fade out the current image
-                $(images + ":eq(" + index + ")").fadeOut('slow');
-                // get the next index, or cycle back to 0
-                if (++index === count) index = 0;
-                // fade in the next image
-                $(images + ":eq(" + index + ")").fadeIn('slow');
-            }, interval),
-            stop = function () {
-                clearInterval(handle);
-            };
-    });
+$(document).ready(function() {
+    var
+        images = "#gallery > img" // image selector
+        ,
+        interval = 4000 // milliseconds between transitions
+        ,
+        index = 0 // starting index
+        ,
+        count = $(images).length // image count
+        // the transition loop
+        ,
+        handle = setInterval(function() {
+            // fade out the current image
+            $(images + ":eq(" + index + ")").fadeOut('slow');
+            // get the next index, or cycle back to 0
+            if (++index === count) index = 0;
+            // fade in the next image
+            $(images + ":eq(" + index + ")").fadeIn('slow');
+        }, interval),
+        stop = function() {
+            clearInterval(handle);
+        };
+});
 </script>

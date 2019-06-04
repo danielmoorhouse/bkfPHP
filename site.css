@@ -10,11 +10,11 @@ for details on configuring this project to bundle and minify static web assets. 
   margin: 0;
   padding: 0;
 }
-html, body {
-width: 100%;
-height: 100%;
 
-
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   min-height: 100%;
   overflow-x: hidden;
   background-color: white;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: "Do Hyeon", sans-serif;
 }
 
 /*2a0c4e*/
@@ -43,10 +43,8 @@ nav {
   margin: auto;
 }
 
-
 .navbar-nav>li>a {
   color: white;
-
 }
 
 .main {
@@ -55,13 +53,13 @@ nav {
 
 .dropdown {
   color: white;
-  padding-top: .3em;
+  padding-top: 0.3em;
   padding-left: 1em;
   margin: auto;
 }
 
 #tt {
-  padding-top: .3em;
+  padding-top: 0.3em;
   padding-left: 1em;
   margin: auto;
 }
@@ -69,7 +67,7 @@ nav {
 .bkf {
   padding-left: 3em;
   color: white;
-  font-family: 'xtreem_thin_personal_useRg';
+  font-family: "xtreem_thin_personal_useRg";
   font-size: 5.5em;
 }
 
@@ -79,7 +77,7 @@ nav {
 
 .quote {
   font-size: 2em;
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: "Covered By Your Grace", cursive;
   text-align: center;
   padding: 1em;
   line-height: 1.6;
@@ -90,13 +88,13 @@ nav {
   background-color: #000;
   margin-left: 0;
   margin-right: 0;
-  height: 72em;
+  height: 74em;
 }
 
 .colourtwo {
-  background-color: #36393B;
+  background-color: #36393b;
   margin-left: 0;
-  height: 72em;
+  height: 74em;
   margin-right: 0;
 }
 
@@ -104,7 +102,7 @@ nav {
   background-color: #000;
   margin-left: 0;
   margin-right: 0;
-  height: 72em;
+  height: 74em;
 }
 
 .whitetext {
@@ -127,22 +125,22 @@ nav {
 }
 
 .whitetitle {
-  padding-top: .5em;
+  padding-top: 0.5em;
   padding-left: 4em;
   color: white;
   padding-right: 2em;
-  font-family: 'xtreem_thin_personal_useRg';
+  font-family: "xtreem_thin_personal_useRg";
   font-size: 2.8em;
-
 }
+
 .modal-title {
-  font-family: 'xtreem_thin_personal_useRg';
+  font-family: "xtreem_thin_personal_useRg";
   margin-left: 20%;
   color: white;
 }
 
 .img {
-  background-image: linear-gradient(to bottom right, #7C9EB2, #52528C);
+  background-image: linear-gradient(to bottom right, #7c9eb2, #52528c);
   height: 10em;
   display: -webkit-flex;
   /* Safari */
@@ -156,7 +154,7 @@ nav {
   -webkit-align-self: center;
   /* Safari 7.0+ */
   align-self: center;
-  margin: auto
+  margin: auto;
 }
 
 .title {
@@ -165,7 +163,14 @@ nav {
   z-index: 10;
   margin-left: 10em;
   padding-left: 1em;
+}
 
+.titletwo {
+  color: white;
+  position: relative;
+  z-index: 10;
+  margin-left: 11em;
+  padding-left: 1em;
 }
 
 .classtitle {
@@ -173,19 +178,23 @@ nav {
 }
 
 .hrp {
-  background-color: #54D406;
+  background-color: #54d406;
 }
 
 .hrzg {
-  background-color: #FFBE3C;
+  background-color: #ffbe3c;
 }
 
 .hrz {
-  background-color: #D8df55;
+  background-color: #d8df55;
 }
 
 hr {
   background-color: #d3d4d9;
+}
+
+.hrs {
+  background-color: #e74992;
 }
 
 #gallery {
@@ -200,10 +209,106 @@ hr {
   z-index: 5;
 }
 
-.booklink {
-  font-size: 1.4em;
+.booklinkzumbag {
+  font-size: .9em;
+  color: #3cffbe;
+}
+
+.mkchzg {
   padding-left: 2em;
-  color: #5c55df;
+  color: #ffbe3c;
+  font-size: 2.6em;
+}
+
+.b {
+  color: #ff3351;
+}
+
+.c {
+  color: #ffb943;
+}
+
+.h {
+  color: #0ffad7;
+}
+
+.lastdiv {
+  padding-bottom: 4em;
+}
+
+.booklinkclub {
+  font-size: 0.9em;
+  color: #ff0046;
+}
+
+
+
+.page {
+  padding-top: 6em;
+}
+
+.booknow {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.mkchc {
+  padding-left: 2.4em;
+  color: #7829ff;
+  font-size: 2.6em;
+}
+
+.booklinkmu {
+  font-size: .9em;
+  color: #50FFFF;
+}
+
+.mkchmu {
+  padding-left: 2em;
+  color: #FF4F4F;
+  font-size: 2.6em;
+}
+
+.booklinksosa {
+  font-size: .9em;
+  color: #4992e7;
+}
+
+.mkchs {
+  padding-left: 2em;
+  color: #e74992;
+  font-size: 2.6em;
+}
+
+.booklinkzumba {
+  font-size: .9em;
+  color: #5b54de;
+
+}
+
+a#book.booklinkzumba {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.mkchzf {
+
+  padding-left: 2em;
+  color: #d8df55;
+  font-size: 2.6em;
+}
+
+.booklinkpound {
+  font-size: .9em;
+  color: #d400d4;
+}
+
+.mkchp {
+  padding-left: 2em;
+  color: #54d406;
+  font-size: 2.6em;
 }
 
 #gallery>img:first-child {
@@ -219,18 +324,12 @@ hr {
   text-align: justify;
 }
 
-
-
-
 .regi {
   margin-top: 32em;
-
 }
-
 
 .containerOne {
   margin-top: 2em;
-
 }
 
 .containerTwo {
@@ -244,7 +343,20 @@ hr {
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
+}
 
+.testimonial {
+  font-family: "Cookie", cursive;
+  font-size: 2.1em !important;
+  padding-bottom: 4em;
+}
+
+#copyright2 {
+  padding-top: 1.6em;
+}
+
+#facebook {
+  padding-top: 1.5em;
 }
 
 #zin,
@@ -253,7 +365,6 @@ hr {
   padding-top: 1em;
   padding-bottom: 2em;
 }
-
 
 body {
   line-height: 1;
@@ -273,12 +384,9 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
-
-
-
 
 .create,
 .detail {
@@ -286,20 +394,21 @@ q:after {
 }
 
 .important {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 .form-group {
   padding-top: 1em;
 }
+
 .splash-left {
   width: 100%;
   height: auto !important;
   min-width: 100%;
   min-height: 100%;
   position: relative;
-
 }
+
 .splash-left::before {
   background-color: black;
   background-size: cover;
@@ -311,8 +420,8 @@ q:after {
   width: 100%;
   height: 100%;
   z-index: -2;
-
 }
+
 .splash-left::after {
   background-image: url('images/regbg.jpeg');
  background-size: cover;
@@ -334,40 +443,26 @@ opacity: 0.2;
   min-height: 100%;
   position: relative;
 
-}
-.splash-left2::before {
-  background-color: black;
+
+.splash-left::after {
+  background-image: url("../images/poundclass.jpg");
   background-size: cover;
   content: "";
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
-  z-index: -2;
-
+  z-index: -1;
+  opacity: 0.1;
 }
-.splash-left2::after {
-  background-image: url('images/discoball.jpg');
- background-size: cover;
-content: "";
-display: block;
-position: absolute;
-top: 0px;
-left: 0px;
-width: 100%;
-height: 100%;
-z-index: -1;
-opacity: 0.1;
 
-}
 #reghead {
-  font-family: 'xtreem_thin_personal_useRg';
+  font-family: "xtreem_thin_personal_useRg";
   color: white;
   font-size: 50px;
   font-weight: 600;
-  
 }
 .reglogbtn {
   background-color: purple;
@@ -380,31 +475,27 @@ opacity: 0.1;
 }
 
 @font-face {
-  font-family: 'xtreem_medium_personal_useRg';
-  src: url('xtreemmedium_personal_use-webfont.woff2') format('woff2'),
-    url('xtreemmedium_personal_use-webfont.woff') format('woff');
+  font-family: "xtreem_medium_personal_useRg";
+  src: url("xtreemmedium_personal_use-webfont.woff2") format("woff2"),
+    url("xtreemmedium_personal_use-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
-}
-
-
-@font-face {
-  font-family: 'xtreem_thin_personal_useRg';
-  src: url('xtreemthin_personal_use-webfont.woff2') format('woff2'),
-    url('xtreemthin_personal_use-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
 }
 
 @font-face {
-  font-family: 'xtreem_fat_personal_useRg';
-  src: url('xtreemfat_personal_use-webfont.woff2') format('woff2'),
-    url('xtreemfat_personal_use-webfont.woff') format('woff');
+  font-family: "xtreem_thin_personal_useRg";
+  src: url("xtreemthin_personal_use-webfont.woff2") format("woff2"),
+    url("xtreemthin_personal_use-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
+  font-family: "xtreem_fat_personal_useRg";
+  src: url("xtreemfat_personal_use-webfont.woff2") format("woff2"),
+    url("xtreemfat_personal_use-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .StripeElement {
