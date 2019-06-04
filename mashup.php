@@ -1,6 +1,4 @@
 <!doctype html>
-
-
 <html>
 
 <?php 
@@ -14,60 +12,62 @@ include 'inc/nav.php';
         <div class="row">
             <div class="col-md-12">
                 <div class="container page text-center">
+                    <img src="images/mashtitle.png" width="450" style="margin-bottom: 3%;">
 
-                    <img src="images/clubbersisetitle.png">
-
-                    <div class="col-md-6 box">
-                        <p style="color: white; padding: 3%; font-size: 1.1em;"></p>
-                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
+
             <div class="col-md-6" style="text-align: center;">
-                <img src="images/bazclass.jpg" style="width: 60%; border: 3px solid #7829ff ;">
+                <img src="images/grp.jpg" style="width: 60%; border: 3px solid #FF4F4F ;">
             </div>
             <div class="col-md-6">
-                <p style="color: white; padding: 5%; padding-left: 5em; padding-right: 6em; font-size: 25px;   text-align: justify;">
-                    Clubbercise consists of; glow sticks, lights out, club anthems and raised volume! This class is perfect for anyone, new
-                    starters needn’t worry about two left feet as it’s in the dark with just flashing disco lights.
+                <p style="color: white;padding: 5%; padding-left: 5em; padding-right: 6em; font-size: 25px;   text-align: justify;">
+                    The workout is basically watch and follow. The moves are repeated often enough for you to catch on and they're not
+                    complicated. The routines are repeated week after week with additions every now and then to spice things up even more!
 
                 </p>
             </div>
         </div>
         <div class="row">
+
             <div class="col-md-6">
-                <p style="color: white;  padding-top: 5em; padding-left: 6em; padding-right: 5em; font-size: 25px;  text-align: justify;">
-                    Enjoy tunes from the 90’s to the latest floorfilla’s, with a set of glow sticks which provides an extra workout for your
-                    arms. The class, which lasts just one hour can burn up to a massive 500 calories, and provides super muscle toning and
-                    flexibility.
+                <p style="color: white; padding-top: 5em; padding-left: 6em; padding-right: 5em; font-size: 25px;  text-align: justify;">
+                    Zumba fitness provides a very exciting dance party atmosphere full of Latin and international music. You'll forget
+                    you're working out with the sexy but simple moves to dance music like Cha Cha, Salsa, reggaeton, rumba and more. Best of
+                    all, you don't need any previous dance experience! It's fun and effective, using interval training combining fast and
+                    slow rhythms for an effective aerobic workout while at the same time targeting your legs, abs, glutes and arms.
+                </p>
 
 
             </div>
             </p>
             <div class="col-md-6" style="text-align: center;">
-                <img src="images/zumbanew.jpg" style="width: 60%; border: 3px solid #7829ff; margin-bottom: 1.5em;">
+                <img src="images/poundgrp.jpg" style="width: 60%; border: 3px solid #FF4F4F; margin-bottom: 1.5em;">
+
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-12">
                 <div class="container text-center booknow">
 
-                    <p class="mkchc">#MakeTheChange//<span><a id="book" class="booklinkclub"
-                                href="https://bkfitness.co.uk/bookings/zumbafitness.php"><span class="b"> Book</span><span class="c">
-                                    Clubbercise</span><span class="h"> here</span>
-                            </a></span></p>
+                    <p class="mkchmu">#MakeTheChange//<span><a id="book" class="booklinkmu"
+                                href="https://bkfitness.co.uk/bookings/zumbafitness.php"> Book MashUp here</a></span>
+                    </p>
 
                 </div>
             </div>
         </div>
         <div class="row  lastdiv">
             <div class="col-md-6" style="text-align: center;">
-                <img src="images/vicki.png" style="width: 50%; border: 3px solid #7829ff;">
+                <img src="images/nicsstory.png" style="width: 50%; border: 3px solid #50FFFF;">
             </div>
             <div class="col-md-6">
-                <p class="testimonial" style="color: white;  padding-left: 1em; padding-right: 8em;   text-align: justify;">
-                    <i class="fas fa-quote-left"></i> When my friend talked me into joining Clubbercise I didn't think I would be able to do
+                <p class="testimonial" style="color: white;  padding-left: 1em; padding-right: 8em;   text-align: justify;"">
+                    <i class=" fas fa-quote-left"></i> When my friend talked me into joining Clubbercise I didn't think I would be able to
+                    do
                     it due to health issues, how
                     wrong was I? From the minute I stepped into Barry's class, I was made to feel welcome and encouraged to do, only what I
                     was capable of...and have fun!<br>
@@ -77,8 +77,7 @@ include 'inc/nav.php';
                 </p>
             </div>
         </div>
-
-
+    </div>
     </div>
     <?php 
 include 'inc/footer.php';
@@ -86,7 +85,6 @@ include 'inc/footer.php';
 </body>
 
 </html>
-
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
