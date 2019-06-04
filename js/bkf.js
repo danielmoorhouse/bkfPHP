@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("#hide").click(function(){
+      $("#profimg").hide();
+    });
+    $("#show").click(function(){
+      $("#profimg").show();
+    });
+  });
+  $(document).ready(function(){
+    $("#hide1").click(function(){
+      $("#acdets").hide(2000);
+    });
+    $("#show1").click(function(){
+      $("#acdets").show();
+    });
+  });
+  $(document).ready(function(){
+    $("#hide2").click(function(){
+      $("#acdets2").hide();
+    });
+    $("#show2 ").click(function(){
+      $("#acdets2").show();
+    });
+  });
+  $(document).ready(function(){
+    $("#hide3").click(function(){
+      $("#close").hide();
+    });
+    $("#show3 ").click(function(){
+      $("#close").show();
+    });
+  });
