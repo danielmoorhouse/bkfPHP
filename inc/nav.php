@@ -1,7 +1,3 @@
-
- 
-
-
 <!doctype html>
 <html>
 
@@ -40,7 +36,7 @@
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
     <link href="webfontkit/stylesheet.css" rel="stylesheet">
-    
+
 </head>
 
 
@@ -60,61 +56,45 @@
 
             <li class="nav-item">
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">Settings<b class="caret"></b></a>
+                <a class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="">Create Product</a></li>
+                    <li><a href="zumbafitness.php">Zumba Fitness</a></li>
                     <li class="divider"></li>
-                    <li><a href="">Create Product</a></li>
+                    <li><a href="zumbagold.php">Zumba Gold</a></li>
                     <li class="divider"></li>
-                    <li><a href="">Create Product</a></li>
+                    <li><a href="clubbercise.php">Clubbercise</a></li>
                     <li class="divider"></li>
-                    <li><a href="">Create Product</a></li>
+                    <li><a href="mashup.php">MashUp</a></li>
+                    <li class="divider"></li>
+                    <li><a href="poundfitness.php">Pound Fitness</a></li>
+                    <li class="divider"></li>
+                    <li><a href="sosafitness.php">Sosa Fitness </a></li>
+                </ul>
+            </li>
             </li>
 
-        </ul>
-        </li>
-        </li>
-        <li class="nav-item">
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Class Details<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a href="https://localhost:5001/Product/Detail?id=2">Zumba Fitness</a></li>
-                <li class="divider"></li>
-                <li><a href="https://localhost:5001/Product/Detail?id=3">Zumba Gold</a></li>
-                <li class="divider"></li>
-                <li><a href="https://localhost:5001/Product/Detail?id=4">Clubbercise</a></li>
-                <li class="divider"></li>
-                <li><a href="https://localhost:5001/Product/Detail?id=5">MashUp</a></li>
-                <li class="divider"></li>
-                <li><a href="https://localhost:5001/Product/Detail?id=6">Pound Fitness</a></li>
-                <li class="divider"></li>
-                <li><a href="https://localhost:5001/Product/Detail?id=7">Sosa Fitness </a></li>
-            </ul>
-        </li>
-        </li>
+            <li class="nav-item" id="tt">
 
-        <li class="nav-item" id="tt">
+                <a href="BKFitness/TimeTable">Timetable</a>
+            </li>
+            <li class="nav-item">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown">Useful<b class="caret"></b></a>
+                <ul class="dropdown-menu">
 
-            <a href="BKFitness/TimeTable">Timetable</a>
-        </li>
-        <li class="nav-item">
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Useful<b class="caret"></b></a>
-            <ul class="dropdown-menu">
+                    <li><a href="BKFitness/About.php">About</a></li>
+                    <li class="divider"></li>
+                    <li><a href="BKFitness/Events.php">Events</a></li>
+                    <li class="divider"></li>
+                    <li><a href="BKFitness/Transformations.php">Transformations</a></li>
+                    <li class="divider"></li>
 
-                <li><a href="BKFitness/About.php">About</a></li>
-                <li class="divider"></li>
-                <li><a href="BKFitness/Events.php">Events</a></li>
-                <li class="divider"></li>
-                <li><a href="BKFitness/Transformations.php">Transformations</a></li>
-                <li class="divider"></li>
-
-                <li><a href="BKFitness/Contact">Contact</a></li>
-                <li class="divider"></li>
-                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
-            </ul>
-        </li>
-        </li>
+                    <li><a href="BKFitness/Contact">Contact</a></li>
+                    <li class="divider"></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                </ul>
+            </li>
+            </li>
         </ul>
         <ul class="navbar-nav ml-auto" style="margin-right: 3%;">
             <a href="#" data-toggle="modal" data-target="#myModal">
@@ -170,4 +150,7 @@
         </div>
     </div>
 </div>
-<script src="./js/site.js" type="text-javascript"> </script>
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"
+    integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=">
+</script>

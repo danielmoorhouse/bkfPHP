@@ -28,7 +28,7 @@ include 'inc/nav.php';
                 <img src="images/bazclass.jpg" style="width: 60%; border: 3px solid #7829ff ;">
             </div>
             <div class="col-md-6">
-                <p style="color: white; padding: 5%; padding-left: 5em; padding-right: 5em; font-size: 25px;">
+                <p style="color: white; padding: 5%; padding-left: 5em; padding-right: 6em; font-size: 25px;   text-align: justify;">
                     Clubbercise consists of; glow sticks, lights out, club anthems and raised volume! This class is perfect for anyone, new
                     starters needn’t worry about two left feet as it’s in the dark with just flashing disco lights.
 
@@ -37,7 +37,7 @@ include 'inc/nav.php';
         </div>
         <div class="row">
             <div class="col-md-6">
-                <p style="color: white;  padding: 5%; padding-left: 5em; padding-right: 5em; font-size: 25px;">
+                <p style="color: white;  padding-top: 5em; padding-left: 6em; padding-right: 5em; font-size: 25px;  text-align: justify;">
                     Enjoy tunes from the 90’s to the latest floorfilla’s, with a set of glow sticks which provides an extra workout for your
                     arms. The class, which lasts just one hour can burn up to a massive 500 calories, and provides super muscle toning and
                     flexibility.
@@ -52,21 +52,21 @@ include 'inc/nav.php';
         <div class="row">
             <div class="col-md-12">
                 <div class="container text-center booknow">
-                    <div id="book">
-                        <p><span class="mkchc">#MakeTheChange//</span> <a class="booklinkclub"
-                                href="https://bkfitness.co.uk/bookings/zumbafitness.php"><span class="b">Book</span><span class="c">
+
+                    <p class="mkchc">#MakeTheChange//<span><a id="book" class="booklinkclub"
+                                href="https://bkfitness.co.uk/bookings/zumbafitness.php"><span class="b"> Book</span><span class="c">
                                     Clubbercise</span><span class="h"> here</span>
-                            </a></p>
-                    </div>
+                            </a></span></p>
+
                 </div>
             </div>
         </div>
         <div class="row  lastdiv">
             <div class="col-md-6" style="text-align: center;">
-                <img src="images/vicki.png" style="width: 40%; border: 3px solid #7829ff;">
+                <img src="images/vicki.png" style="width: 50%; border: 3px solid #7829ff;">
             </div>
             <div class="col-md-6">
-                <p class="testimonial" style="color: white;  padding: 5%; padding-left: 5em; padding-right: 5em; font-size: 25px;">
+                <p class="testimonial" style="color: white;  padding-left: 1em; padding-right: 8em;   text-align: justify;">
                     <i class="fas fa-quote-left"></i> When my friend talked me into joining Clubbercise I didn't think I would be able to do
                     it due to health issues, how
                     wrong was I? From the minute I stepped into Barry's class, I was made to feel welcome and encouraged to do, only what I
@@ -93,10 +93,8 @@ include 'inc/footer.php';
 
 <script type="text/javascript">
 var status = true;
-var interval = 1000;
 var timer;
-
-$(window).on("load", function() {
+$(document).ready(function() {
     loop();
     setTimeout('clearTimeout(timer)', 5000);
 });
@@ -104,7 +102,7 @@ $(window).on("load", function() {
 function loop() {
     $("#book").effect("shake", {
         distance: 1
-    }, interval);
+    });
 
     status ? status = false : status = true;
     timer = setTimeout('loop()', 10);

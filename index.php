@@ -68,7 +68,7 @@ include 'inc/nav.php';
                         <div class="col-md-6 text-center " data-toggle="tooltip" data-placement="bottom"
                             title="Sosa Fitness Details -- #MakeTheChange// and Book Sosa Fitness">
                             <div class="container cont">
-                                <a href="sosa.php" class="img"> <img src="images/sosa.gif" width="170" class="image"></a>
+                                <a href="sosafitness.php" class="img"> <img src="images/sosa.gif" width="170" class="image"></a>
                             </div>
                         </div>
                         <div class="col-md-6 text-center" data-toggle="tooltip" data-placement="top"
@@ -141,10 +141,7 @@ include 'inc/nav.php';
 <?php 
 include 'inc/footer.php';
 ?>
-<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"
-    integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=">
-</script>
+
 
 <script type="text/javascript">
 $(document).ready(function() {
