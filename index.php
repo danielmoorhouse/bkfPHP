@@ -9,7 +9,7 @@
 <?php 
 include 'inc/nav.php';
 ?>
-<body>
+<body class="animated fadeIn">
     <div class="container-fluid">
         <div class="row">
             <div id="gallery">
