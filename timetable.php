@@ -1,99 +1,64 @@
 <!doctype html>
 <html>
 
-<head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<style>
+h4 {
+    text-align: center;
+    margin-bottom: 15%;
+    color: white;
+    font-size: 30px;
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Barry Kinder Fitness full weekly class schedule. Includes times, locations and maps. Choose a class that suits you, classes in Blackpool, Bispham, Cleveleys, Fleetwood, Hambleton.">
-    <title>Class Timetable, Barry Kinder Fitness.</title>
-    <link rel="shortcut icon" href="images/favicon.ico.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <link href="nav.css" rel="stylesheet" type="text/css">
-    <link href="footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="animate.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <style>
-
-        h4 {
-            text-align: center;
-            margin-bottom: 15%;
-            color: white;
-            background-image: url(images/purple1.jpg);
-            font-family: 'Josefin Slab';
-            font-size: 30px;
-
-        }
-
-        p {
-            text-align: center;
-            margin-top: 5%;
-            font-family: 'Josefin Slab';
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        #bookbtn {
-            width: 25%;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 5%;
-            color: black;
-            background-color: #14f702;
-            font-family: 'Josefin Slab';
-
-        }
-
-        #myBtn {
-            width: 25%;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 5%;
-            background-color: blue !important;
-            font-family: 'Josefin Slab';
-        }
-
-        .small {
-            color: white;
-        }
-
-        #ttbl {
-            font-family: Cambria, serif;
-            color: #b600ce;
-            text-shadow: 3px 3px 3px black;
-
-        }
-
-        h1 {
-            font-family: dancing script, cursive;
-            text-align: center;
-            font-size: 60px;
-            color: black;
-            text-shadow: 3px 3px 3px #b600ce;
-            margin-bottom: 5%;
-            position: relative;
-            z-index: -1;
-        }
-.small {
-    color:  #00cc58;
 }
 
-        #tablebkg {
-        margin-left: 1.5em;
-marrgin-right: 1.5em;
-        }
+p {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bookbtn {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5%;
+    color: black;
+    background-color: #14f702;
+}
+
+#myBtn {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5%;
+    background-color: blue !important;
+}
+
+.small {
+    color: white;
+}
+
+
+h1 {
+
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5%;
+    position: relative;
+    z-index: -1;
+}
+
+.small {
+    color: #00cc58;
+}
+
+#tablebkg {
+    margin-left: 1.5em;
+    marrgin-right: 1.5em;
+}
 
 #tablecontainer {
-    background-color: rgba(0, 0, 0, 10);
+    margin-top: 2%;
     color: white;
     text-align: center;
 }
@@ -104,7 +69,7 @@ marrgin-right: 1.5em;
 
 .table:hover a {
     color: rgb(43, 7, 247);
-   
+
 }
 
 a:hover {
@@ -115,226 +80,139 @@ tr th {
     border: 2px solid white;
     width: 10%;
 }
+
 .day {
     border-bottom: 2px solid white;
 }
-    </style>
+</style>
 
-</head>
 
-<body background="images/bk.gif">
+
+<body style="background-color: black;">
     <?php include 'inc/nav.php' ?>
 
-    <table class="table table-hover" id="forumIndexTable">
-        <tbody>
-            <tr>
-                <th>
-                    Monday
-                </th>
-                <th>
-                    Tuesday
-                </th>
-                <th>
-                    Wednesday
-                </th>
-                <th>
-                    Thursday
-                </th>
-                <th>
-                    Friday
-                </th>
-            </tr>
-            <tr>
-                <td>
-                <h5>Zumba Fitness</h5>
-                <p>6pm - 7pm<br /> Bispham United<br /> Reformed Church<br /></p>
-                <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-primary" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
-                </td>
-                <td>
-                <p style="color: #ff00cb; background-color: black;">Clubbercise</p>
-                <p>7.30pm - 8.30pm<br /> Bispham United <br />Reformed Church</p>
-                <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-primary"
-                    id="bookbtn">Book Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
-
-                </td>
-                <td>
-
-                </td>
-                <td>
-
-</td>
-<td>
-
-</td>
-            </tr>
-            <tr>
-            <td>
-            <h5>Clubbercise</h5>
-                <p>7.30pm - 8.30pm<br /> Bispham United <br />Reformed Church</p>
-                <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-primary"
-                    id="bookbtn">Book Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
-</td>
-<td>
-
-</td>
-<td>
-
-</td>
-<td>
-
-</td>
-<td>
-
-</td>
-            
-            </tr>
-
-        </tbody>
-    </table>
 
 
 
-    <div class="container-fluid wow rotateIn" id="maintable" style="margin-bottom: 10%;">
-        <h1 class="wow slideInRight">Class <span id="ttbl">Timetable</span></h1>
-        <div class="container-fluid" id="tablebkg" >
-        <div class="row" id="tablecontainer">
-        <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                <h3  class="day">Monday</h3>
-                <p style="color: #FFF612; 	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
-                <p>6pm - 7pm<br /> Bispham United<br /> Reformed Church<br /></p>
-                <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-primary" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
+    <div class="container-fluid" id="maintable" style="margin-bottom: 10%;margin-top: 5%">
+        <h1 class="classtitle">Class <span id="ttbl">Timetable</span></h1>
+        <div class="container-fluid" id="tablebkg">
+            <div class="row" id="tablecontainer">
+                <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <h3 class="day">Monday</h3>
+                    <p style="color: #FFF612; 	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
+                    <p>6pm - 7pm<br /> Bispham United<br /> Reformed Church<br /></p>
+                    <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Map</button>
                     <hr>
 
-                <p style="color: #FF4A4A; 	font-family: 'Do Hyeon', sans-serif;">Clubbercise</p>
-                <p>7.30pm - 8.30pm<br /> Bispham United <br />Reformed Church</p>
-                <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-primary"
-                    id="bookbtn">Book Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
+                    <p style="color: #FF4A4A; 	font-family: 'Do Hyeon', sans-serif;">Clubbercise</p>
+                    <p>7.30pm - 8.30pm<br /> Bispham United <br />Reformed Church</p>
+                    <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-primary" id="bookbtn">Book</a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal1">Map</button>
                     <hr>
-            </div>
+                </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-            <h3 class="day">Tuesday</h3>
-                <p style="color:#FFA500; 	font-family: 'Do Hyeon', sans-serif;">Zumba Gold</p>
-                <p> 11am - 12pm<br /> Bispham United <br />Reformed Church<br /></p>
-                <a href="https://bkfitness.co.uk/bookings/product/zumbagold/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
-        <hr>
-                <p style="color: #FFF612; 	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
-                <p>6pm - 7pm<br /> Holy Family <br /> Church Hall</p>
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal5">Directions</button>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <h3 class="day">Tuesday</h3>
+                    <p style="color:#FFA500; 	font-family: 'Do Hyeon', sans-serif;">Zumba Gold</p>
+                    <p> 11am - 12pm<br /> Bispham United <br />Reformed Church<br /></p>
+                    <a href="https://bkfitness.co.uk/bookings/product/zumbagold/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal1">Map</button>
                     <hr>
-                <p style="color: #b5ff47; 	font-family: 'Do Hyeon', sans-serif;"><span style="color: #28C6FF;">MASHUP</span></p>
-                <p> 8.00pm - 9.00pm<br /> Fleetwood<br />High</p>
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/mashup/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal10">Directions</button>
+                    <p style="color: #FFF612; 	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
+                    <p>6pm - 7pm<br /> Holy Family <br /> Church Hall</p>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal5">Map</button>
                     <hr>
-            </div>
+                    <p style="color: #b5ff47; 	font-family: 'Do Hyeon', sans-serif;"><span style="color: #28C6FF;">MashUp</span></p>
+                    <p> 8.00pm - 9.00pm<br /> Fleetwood<br />High</p>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/mashup/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal10">Map</button>
+                    <hr>
+                </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-            <h3 class="day">Wednesday</h3>
-                <p style="color: #FF69B4; 	font-family: 'Do Hyeon', sans-serif;">SOSA Dance Fitness</p>
-                <p>11am - 12pm<br /> Vicarage Park <br />Community Centre<br /></p>
-                <a href="https://bkfitness.co.uk/bookings/product/sosafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal41">Directions</button>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <h3 class="day">Wednesday</h3>
+                    <p style="color: #FF69B4; 	font-family: 'Do Hyeon', sans-serif;">SOSA Dance Fitness</p>
+                    <p>11am - 12pm<br /> Vicarage Park <br />Community Centre<br /></p>
+                    <a href="https://bkfitness.co.uk/bookings/product/sosafitness/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal41">Map</button>
                     <hr>
-                <p style="color: #FFF612;	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
-                <p> 6pm - 7pm<br /> Anchorsholme <br />Academy<br /></p> <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal3">Directions</button>
+                    <p style="color: #FFF612;	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
+                    <p> 6pm - 7pm<br /> Anchorsholme <br />Academy<br /></p> <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal3">Map</button>
                     <hr>
-                <p style="color: #b5ff47; 	font-family: 'Do Hyeon', sans-serif;;"><span style="color: #28C6FF;">MASHUP</span></p>
-                <p> 7.45pm - 8.45pm<br /> Vicarage Park <br />Community Centre</p>
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/mashup/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal41">Directions</button>
+                    <p style="color: #b5ff47; 	font-family: 'Do Hyeon', sans-serif;;"><span style="color: #28C6FF;">MashUp</span></p>
+                    <p> 7.45pm - 8.45pm<br /> Vicarage Park <br />Community Centre</p>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/mashup/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal41">Map</button>
                     <hr>
-            </div>
-            5b90e2
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-            <h3 class="day">Thursday</h3>
+                </div>
 
-                <p style="color:#FFA500; 	font-family: 'Do Hyeon', sans-serif;;">Zumba Gold</p>
-                <p> 11am - 12pm<br /> Bispham United<br /> Reformed Church<br /></p>
-                <a href="https://bkfitness.co.uk/bookings/product/zumbagold/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal1">Directions</button>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <h3 class="day">Thursday</h3>
+
+                    <p style="color:#FFA500; 	font-family: 'Do Hyeon', sans-serif;;">Zumba Gold</p>
+                    <p> 11am - 12pm<br /> Bispham United<br /> Reformed Church<br /></p>
+                    <a href="https://bkfitness.co.uk/bookings/product/zumbagold/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal1">Map</button>
 
                     <hr>
-                <p style="color: #FF4A4A; 	font-family: 'Do Hyeon', sans-serif;">Clubbercise</p>
-                <p> 6pm - 7pm<br /> AVR Dance Studio<br /> Layton</p>
+                    <p style="color: #FF4A4A; 	font-family: 'Do Hyeon', sans-serif;">Clubbercise</p>
+                    <p> 6pm - 7pm<br /> AVR Dance Studio<br /> Layton</p>
 
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal31">Directions</button>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal31">Map</button>
                     <hr>
-                <p style="color: #FF4A4A; 	font-family: 'Do Hyeon', sans-serif;">Clubbercise</p>
-                <p> 8pm - 9pm<br /> Fleetwood High <br />School</p>
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal10">Directions</button>
+                    <p style="color: #FF4A4A; 	font-family: 'Do Hyeon', sans-serif;">Clubbercise</p>
+                    <p> 8pm - 9pm<br /> Fleetwood High <br />School</p>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/clubbercise/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal10">Map</button>
                     <hr>
-            </div>
+                </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-            <h3 class="day">Friday</h3>
-                <p style="color: #FF69B4; 	font-family: 'Do Hyeon', sans-serif;">SOSA Dance Fitness</p>
-                <p>11am - 12pm<br /> Michael Hall <br />Theatre School<br /></p>
-                <a href="https://bkfitness.co.uk/bookings/product/sosafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal30">Directions</button>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <h3 class="day">Friday</h3>
+                    <p style="color: #FF69B4; 	font-family: 'Do Hyeon', sans-serif;">SOSA Dance Fitness</p>
+                    <p>11am - 12pm<br /> Michael Hall <br />Theatre School<br /></p>
+                    <a href="https://bkfitness.co.uk/bookings/product/sosafitness/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal30">Map</button>
                     <hr>
-                <p style="color: #FFF612; 	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
-                <p> 6pm - 7pm<br /> Holy Family <br />Church Hall</p>
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal5">Map</button>
+                    <p style="color: #FFF612; 	font-family: 'Do Hyeon', sans-serif;">Zumba Fitness</p>
+                    <p> 6pm - 7pm<br /> Holy Family <br />Church Hall</p>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/zumbafitness/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal5">Map</button>
                     <hr>
-                <p style="color: #00cc58;	font-family: 'Do Hyeon', sans-serif;">PoundFit -<span class="small"> with Barry</span></p>
-                <p>7.15pm - 8pm<br /> Holy Family<br /> Church Hall</p>
-                <!-- trigger the modal with the button -->
-                <a href="https://bkfitness.co.uk/bookings/product/poundfit/" class="btn btn-info" id="bookbtn">Book
-                    Class</a>
-                <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal"
-                    data-target="#myModal5">Directions</button>
+                    <p style="color: #00cc58;	font-family: 'Do Hyeon', sans-serif;">PoundFit -<span class="small"> with Barry</span></p>
+                    <p>7.15pm - 8pm<br /> Holy Family<br /> Church Hall</p>
+                    <!-- trigger the modal with the button -->
+                    <a href="https://bkfitness.co.uk/bookings/product/poundfit/" class="btn btn-info" id="bookbtn">Book
+                    </a>
+                    <button type="button" id="myBtn" class="btn btn-info" data-toggle="modal" data-target="#myModal5">Map</button>
                     <hr>
-            </div>
-            <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                </div>
+                <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
             </div>
             <!-- Modals-->
             <!-- Bispham United reformed-->
@@ -350,8 +228,7 @@ tr th {
                             <!--Google Map-->
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.755257682636!2d-3.0528892841426067!3d53.847216780087074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b449efca43127%3A0x21739dc2b7f646fc!2sBispham+United+Reformed+Church!5e0!3m2!1sen!2suk!4v1503260284328"
-                                target="_blank" width="100%" height="450" frameborder="0" style="border:0"
-                                allowfullscreen>
+                                target="_blank" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
                             </iframe>
                         </div>
                     </div>
@@ -372,8 +249,7 @@ tr th {
                             <!--Google Map-->
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75411.81350913827!2d-3.123105652267263!3d53.79626529668874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b440ffae95ea3%3A0x6339cd60b88aa4d2!2sHoly+Trinity+Church!5e0!3m2!1sen!2suk!4v1506883296551"
-                                target="_blank" width="100%" height="450" frameborder="0" style="border:0"
-                                allowfullscreen>
+                                target="_blank" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
                             </iframe>
                         </div>
                     </div>
@@ -567,18 +443,7 @@ tr th {
     </div>
     <!--Close container-fluid-->
     <?php include'inc/footer.php' ?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-    <script src="https://use.fontawesome.com/47db90e31b.js"></script>
-    <script src="contact.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 </body>
 
 </html>

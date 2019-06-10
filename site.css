@@ -28,10 +28,18 @@ body {
 
 /*2a0c4e*/
 nav {
-  background-color: #372554 !important;
+  background-color: #29339b !important;
   padding-bottom: 4em;
   border-bottom: 5px solid #d3d4d9;
   color: white;
+}
+
+.sosapadding {
+  padding-bottom: 0.8em;
+}
+
+.zumpadding {
+  padding-top: 0.8em;
 }
 
 .nav-item {
@@ -43,12 +51,23 @@ nav {
   margin: auto;
 }
 
-.navbar-nav>li>a {
+.navbar-nav > li > a {
+  color: white;
+  font-size: 1.3em;
+}
+
+a {
   color: white;
 }
 
-.main {
+.dropdown-menu .main {
   padding-top: 3em;
+}
+
+.dropdown-menu {
+  background-color: #36393b;
+  color: white;
+  text-align: center;
 }
 
 .dropdown {
@@ -56,6 +75,40 @@ nav {
   padding-top: 0.3em;
   padding-left: 1em;
   margin: auto;
+}
+#events {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.table {
+  background-color: rgba(255, 255, 250, 10);
+  color: rgb(17, 16, 16);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+td {
+  padding-top: 1em !important;
+  padding-right: 1em !important;
+}
+.table a {
+  color: rgb(58, 4, 109);
+}
+
+.table:hover a {
+  color: rgb(43, 7, 247);
+}
+
+a:hover {
+  color: #44ffd1 !important;
+}
+
+.right {
+  transform: rotate(10deg);
+}
+
+.left {
+  transform: rotate(-10deg);
 }
 
 #tt {
@@ -88,13 +141,34 @@ nav {
   background-color: #000;
   margin-left: 0;
   margin-right: 0;
-  height: 74em;
+}
+
+.classtitle {
+  color: #14f702;
+}
+
+#ttbl {
+  color: blue !important;
+}
+
+.contact__form {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.fb-page {
+  margin-bottom: 4%;
+}
+
+.contacttitle {
+  color: white;
+  margin-top: 4%;
 }
 
 .colourtwo {
   background-color: #36393b;
   margin-left: 0;
-  height: 74em;
+
   margin-right: 0;
 }
 
@@ -102,7 +176,6 @@ nav {
   background-color: #000;
   margin-left: 0;
   margin-right: 0;
-  height: 74em;
 }
 
 .whitetext {
@@ -201,7 +274,7 @@ hr {
   position: relative;
 }
 
-#gallery>img {
+#gallery > img {
   position: absolute;
   left: 0;
   top: 0;
@@ -210,7 +283,7 @@ hr {
 }
 
 .booklinkzumbag {
-  font-size: .9em;
+  font-size: 0.9em;
   color: #3cffbe;
 }
 
@@ -241,8 +314,6 @@ hr {
   color: #ff0046;
 }
 
-
-
 .page {
   padding-top: 6em;
 }
@@ -259,18 +330,18 @@ hr {
 }
 
 .booklinkmu {
-  font-size: .9em;
-  color: #50FFFF;
+  font-size: 0.9em;
+  color: #50ffff;
 }
 
 .mkchmu {
   padding-left: 2em;
-  color: #FF4F4F;
+  color: #ff4f4f;
   font-size: 2.6em;
 }
 
 .booklinksosa {
-  font-size: .9em;
+  font-size: 0.9em;
   color: #4992e7;
 }
 
@@ -281,9 +352,8 @@ hr {
 }
 
 .booklinkzumba {
-  font-size: .9em;
+  font-size: 0.9em;
   color: #5b54de;
-
 }
 
 a#book.booklinkzumba {
@@ -294,14 +364,13 @@ a#book.booklinkzumba {
 }
 
 .mkchzf {
-
   padding-left: 2em;
   color: #d8df55;
   font-size: 2.6em;
 }
 
 .booklinkpound {
-  font-size: .9em;
+  font-size: 0.9em;
   color: #d400d4;
 }
 
@@ -311,7 +380,7 @@ a#book.booklinkzumba {
   font-size: 2.6em;
 }
 
-#gallery>img:first-child {
+#gallery > img:first-child {
   display: block;
 }
 
@@ -339,7 +408,8 @@ a#book.booklinkzumba {
 }
 
 #allfooter {
-  background-color: #372554;
+  border-top: 5px solid #d3d4d9;
+  background-color: #29339b;
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -441,6 +511,13 @@ q:after {
   color: white;
   font-size: 50px;
   font-weight: 600;
+}
+
+#vid {
+  width: 95%;
+  height: 29em;
+  margin-top: 2em;
+  padding-left: 5%;
 }
 
 @font-face {

@@ -86,13 +86,15 @@ include 'inc/nav.php';
             </div>
             <div class="col-md-6">
                 <p class="testimonial" style="color: white;  padding-left: 1em; padding-right: 8em;   text-align: justify;"">
-                    <i class=" fas fa-quote-left"></i> When my friend talked me into joining Clubbercise I didn't think I would be able to
-                    do
-                    it due to health issues, how
-                    wrong was I? From the minute I stepped into Barry's class, I was made to feel welcome and encouraged to do, only what I
-                    was capable of...and have fun!<br>
-                    Over a year later I am still loving it and enjoying the benefits from exercise and a healthy eating plan. I cannot
-                    recommend Barry and his classes highly enough. It was the best decision I ever made! <i class="fas fa-quote-right"></i>
+                    <i class=" fas fa-quote-left"> </i>I have always been a big girl, and had wanted to do something about it for a long
+                    time. I didn't want to join the gym as I did not feel comfortable, so decided to give oone of Barry's classes a try.
+                    <br>
+                    I was made to feel welcome by Barry, which encouraged me to continue, and try out his other classes too. I started on
+                    the back row and now, with my increased confidence, dance on the front row! I lost a stone and a half in 13 weeks and
+                    can't get enough of Barry's classes...Thank you Barry for the encouraging messages, pushing me to continue when I felt
+                    like giving up, and being a great friend!
+
+                    <i class="fas fa-quote-right"></i>
 
                 </p>
             </div>
