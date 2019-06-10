@@ -86,22 +86,18 @@ include 'inc/nav.php';
                     <h1 class="bkf">Barry Kinder Fitness </h1>
                     <h4 class="title">"Do you want get fit and have fun at the same time?"</h4>
                     <h4 class="titletwo"> if you answered 'yes'....read on....</h4>
-                    <p class="whitetext"> Hello and welcome to my Website. I hope you find all the information you
-                        need
-                        in
-                        helping
-                        you make your first step into taking a class. It can seem daunting when you take the plunge
-                        to
+                    <p class="whitetext"> Hello and welcome to my Website. I hope this information helps you
+                        make your first step towards taking a class. It can seem daunting when you take the plunge
+                        and
                         start
-                        something new, alone or even with friends. However, I can guarantee that the classes are
+                        something new, alone or even with friends. However, I can guarantee that my classes are
                         friendly
                         and welcoming.
                         I am qualified to teach Zumba Fitness, Zumba Gold, Zumba Toning, Zumba Kids, Clubbercise,
                         Pound
                         Fitness, SOSA Dance Fitness and my own special 'MashUp'. <br> <br> I offer a
-                        wide variety of classes which help with mobility, increase fitness levels, tone muscles,
-                        gain
-                        confidence, improve coordination, making new friends and just feeling great
+                        wide variety of classes which help with mobility, increase fitness levels, tone muscles, and
+                        improve coordination. I can guarantee you will gain confidence, make new friends and just feel great
                         in general. So if you are looking for something new and exciting, that is enjoyable and
                         NEVER a
                         chore, take a look at my<a asp-area="" asp-controller="Timetable" asp-action="Index">

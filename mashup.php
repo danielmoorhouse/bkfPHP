@@ -24,9 +24,10 @@ include 'inc/nav.php';
             </div>
             <div class="col-md-6">
                 <p style="color: white;padding: 5%; padding-left: 5em; padding-right: 6em; font-size: 25px;   text-align: justify;">
-                    The workout is basically watch and follow. The moves are repeated often enough for you to catch on and they're not
-                    complicated. The routines are repeated week after week with additions every now and then to spice things up even more!
-
+                    MashUp is something I decided to start when I realised how many people loved each of my classes, but could not attend
+                    them
+                    all, due to other commitments. The class consists of a 'MashUp' of styles, which can include: Zumba Fitness, Clubbercise
+                    and Pound Fitness! This class is fun, effective and never gets boring!
                 </p>
             </div>
         </div>
@@ -34,10 +35,8 @@ include 'inc/nav.php';
 
             <div class="col-md-6">
                 <p style="color: white; padding-top: 5em; padding-left: 6em; padding-right: 5em; font-size: 25px;  text-align: justify;">
-                    Zumba fitness provides a very exciting dance party atmosphere full of Latin and international music. You'll forget
-                    you're working out with the sexy but simple moves to dance music like Cha Cha, Salsa, reggaeton, rumba and more. Best of
-                    all, you don't need any previous dance experience! It's fun and effective, using interval training combining fast and
-                    slow rhythms for an effective aerobic workout while at the same time targeting your legs, abs, glutes and arms.
+                    The workout is basically watch and follow. The moves are repeated often enough for you to catch on and they're not
+                    complicated. The routines are repeated week after week with additions every now and then to spice things up even more!
                 </p>
 
 
@@ -66,13 +65,17 @@ include 'inc/nav.php';
             </div>
             <div class="col-md-6">
                 <p class="testimonial" style="color: white;  padding-left: 1em; padding-right: 8em;   text-align: justify;"">
-                    <i class=" fas fa-quote-left"></i> When my friend talked me into joining Clubbercise I didn't think I would be able to
-                    do
-                    it due to health issues, how
-                    wrong was I? From the minute I stepped into Barry's class, I was made to feel welcome and encouraged to do, only what I
-                    was capable of...and have fun!<br>
-                    Over a year later I am still loving it and enjoying the benefits from exercise and a healthy eating plan. I cannot
-                    recommend Barry and his classes highly enough. It was the best decision I ever made! <i class="fas fa-quote-right"></i>
+                    <i class=" fas fa-quote-left"></i>I have been going to Barrys classes, on and off since they started 8 years ago. The
+                    mistake I made was taking a break, as the weight I'd previously lost, started to pile back on. I felt awful, embarrased
+                    to be seen, let alone go back to class. <br> Barry assured me there was nothing to worry or be embarrased about going
+                    back to
+                    class (even
+                    offering me an outfit when I didn't have any clothes for class which fit me!). Now 6 months later I've lost 3 and half
+                    stone! If you are looking to lose weight and get fit whilst having fun, get yourself to one of Barry's classes. It'll be
+                    one of the best things you ever do!!
+
+
+                    <i class="fas fa-quote-right"></i>
 
                 </p>
             </div>

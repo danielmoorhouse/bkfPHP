@@ -6,7 +6,7 @@ include 'inc/nav.php';
 ?>
 
 <body style="background-color: black;">
-    <?php include 'nav.php' ?>
+
     <div class="container-fluid">
 
         <div class="row">

@@ -58,40 +58,34 @@
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="zumbafitness.php">Zumba Fitness</a></li>
-                    <li class="divider"></li>
+                    <li class="zumpadding"><a href="zumbafitness.php">Zumba Fitness</a></li>
+                    <hr>
                     <li><a href="zumbagold.php">Zumba Gold</a></li>
-                    <li class="divider"></li>
+                    <hr>
                     <li><a href="clubbercise.php">Clubbercise</a></li>
-                    <li class="divider"></li>
+                    <hr>
                     <li><a href="mashup.php">MashUp</a></li>
-                    <li class="divider"></li>
+                    <hr>
                     <li><a href="poundfitness.php">Pound Fitness</a></li>
-                    <li class="divider"></li>
-                    <li><a href="sosafitness.php">Sosa Fitness </a></li>
+                    <hr>
+                    <li class="sosapadding"><a href="sosafitness.php">Sosa Fitness </a></li>
                 </ul>
             </li>
             </li>
 
             <li class="nav-item" id="tt">
 
-                <a href="BKFitness/TimeTable">Timetable</a>
+                <a href="timetable.php">Timetable</a>
             </li>
             <li class="nav-item">
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Useful<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-
-                    <li><a href="BKFitness/About.php">About</a></li>
-                    <li class="divider"></li>
-                    <li><a href="BKFitness/Events.php">Events</a></li>
-                    <li class="divider"></li>
-                    <li><a href="BKFitness/Transformations.php">Transformations</a></li>
-                    <li class="divider"></li>
-
-                    <li><a href="BKFitness/Contact">Contact</a></li>
-                    <li class="divider"></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                    <li class="zumpadding"><a href="events.php">Events</a></li>
+                    <hr>
+                    <li><a href="contact.php">Contact</a></li>
+                    <hr>
+                    <li class="sosapadding"><a href="terms.php">T&C's</a></li>
                 </ul>
             </li>
             </li>
